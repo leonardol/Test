@@ -1,0 +1,13 @@
+{
+  "id" : "https://leonardol.github.io/Test/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in leonardol/Test project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://leonardol.github.io/Test/manifests/custom-manifest.json",
+    "label" : [ "en", "All images loaded in leonardol/Test project" ]
+  } ]
+}
