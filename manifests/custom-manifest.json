@@ -1,0 +1,55 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@type" : "sc:Manifest",
+  "@id" : "https://leonardol.github.io/Test/manifests/custom-manifest.json",
+  "label" : [ "en", "All images loaded in leonardol/Test project" ],
+  "within" : [ {
+    "@id" : "https://leonardol.github.io/Test/images/screenshot1/canvas/",
+    "@type" : "sc:Canvas",
+    "label" : "screenshot1",
+    "images" : [ {
+      "@type" : "oa:Annotation",
+      "motivation" : "sc:painting",
+      "resource" : {
+        "@id" : "http://localhost:8182/iiif/2//full/full/0/default.jpg",
+        "@type" : "dctypes:Image",
+        "service" : {
+          "@context" : "http://iiif.io/api/image/2/context.json",
+          "@id" : "http://localhost:8182/iiif/2/",
+          "width" : 1872,
+          "height" : 958,
+          "tiles" : [ {
+            "width" : 1024,
+            "height" : 1024,
+            "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ]
+          } ],
+          "sizes" : [ {
+            "width" : 59,
+            "height" : 30
+          }, {
+            "width" : 117,
+            "height" : 60
+          }, {
+            "width" : 234,
+            "height" : 120
+          }, {
+            "width" : 468,
+            "height" : 240
+          }, {
+            "width" : 936,
+            "height" : 479
+          }, {
+            "width" : 1872,
+            "height" : 958
+          } ],
+          "profile" : "http://iiif.io/api/image/2/level0.json",
+          "protocol" : "http://iiif.io/api/image"
+        },
+        "format" : "image/jpeg"
+      },
+      "on" : "https://leonardol.github.io/Test/images/screenshot1/canvas/"
+    } ],
+    "width" : 1872,
+    "height" : 958
+  }, "https://leonardol.github.io/Test/images/screenshot1/AnnoPage/" ]
+}
