@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 22,
+    "height" : 17
+  }, {
+    "width" : 44,
+    "height" : 33
+  }, {
+    "width" : 87,
+    "height" : 66
+  }, {
+    "width" : 174,
+    "height" : 132
+  }, {
+    "width" : 348,
+    "height" : 264
+  }, {
+    "width" : 696,
+    "height" : 527
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 696,
+  "@id" : "https://leonardol.github.io/Test/images/thumbnail",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 527
+}
